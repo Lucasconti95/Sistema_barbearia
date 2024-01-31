@@ -1,0 +1,26 @@
+body{
+    background: url(../img/fundo.jpg);
+	background-color: #444;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 700px){
+    body{
+        background: url(../img);
+        background-color: #444;
+        background-size: cover;
+    }
+    .formlogin{
+        padding-bottom: 50px;
+    }
+}
+
+.vertical-offset-100{
+    padding-top:70px;
+}
+
+.recuperar{
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;   
+}
